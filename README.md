@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/Earfworm/Product-preview-card-component
 - Live Site URL: https://earfworm.github.io/Product-preview-card-component/
 
 ## My process
