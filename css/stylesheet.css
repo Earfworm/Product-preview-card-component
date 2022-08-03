@@ -295,8 +295,3 @@ margin-top:.8rem ;
 }
 }
 
-@media screen and (max-width:1440px) and (min-width:375px){
-#img-div{
-max-width: 1140px;
-}
-}
