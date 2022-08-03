@@ -1,0 +1,302 @@
+*{
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color:hsl(30, 38%, 92%);
+  margin-top: 100px;
+  
+
+}
+
+.container {
+margin:0 auto;
+height: 450px;
+max-width:600px;
+background-color:hsl(0, 0%, 100%);
+border-radius: 10px;
+}
+
+.productdiv {
+  clear: both;
+  float: right;
+ margin-right: 2em;
+margin-top: 1em;
+
+}
+
+.perfume {
+
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: .3em;
+  margin-bottom: -.6em;
+ 
+}
+
+h1 {
+font-family: Fraunces, sans-serif;
+
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+font-size: 14px;
+color: hsl(228, 12%, 48%);
+font-weight: 500;
+line-height: 1.6em;
+
+}
+
+.br3{
+  display: none;
+}
+
+.br5{
+  display: none;
+}
+/* #prices{
+  display: block;
+  margin-top: -1em;
+} */
+.discountprice {
+  display: block;
+  font-family: Fraunces, sans-serif;
+  color:hsl(158, 36%, 37%);
+  font-size: 30px;
+ font-weight: 700;
+margin-top: .3em;
+margin-left: .1em;
+}
+
+.regularprice {
+ text-decoration:line-through ;
+  font-family: Fraunces, sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 1.5em;
+ position:absolute;
+ top:-2;
+  }
+
+
+button {
+
+background-color: hsl(158, 36%, 37%);
+color: hsl(0, 0%, 100%);
+border-radius: 10px;
+border: none;
+outline: none;
+font-family: Montserrat, sans-serif;
+font-size: 14px;
+font-weight: 500;
+height: 3.2em;
+width:16.9em;
+margin-top: -2.2em;
+margin-left: .1em;
+padding-bottom: .3em;
+overflow: hidden;
+cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 25%);
+}
+.icon-span{
+
+}
+
+.icon {
+float: left;
+margin-left: 4em;
+
+}
+
+.button-text {
+margin-right:3.7em;
+ margin-bottom:.4em;
+}
+
+/* 
+.imgdiv{
+height: 175px;
+width:250px;
+} */
+
+#img-div{
+
+max-width:75%;
+max-height:100%; 
+
+border-radius: 10px 0px 0px 10px;
+margin-right: .9em;
+
+
+}
+
+.img-mobile {
+  display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 375px) {
+ *{
+box-sizing: border-box;
+ }
+
+
+  .container{
+    display: flex;
+ flex-direction: column;
+justify-content: center;
+text-align: center;
+
+height: 560px ;
+max-height: 100%;
+  }
+.productdiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+
+}
+
+.perfume{
+display: flex;
+flex-direction: column;
+justify-content: start;
+margin-right: .5rem;
+margin-left: 1.3rem;
+margin-top: -5rem;
+margin-bottom: -1.2rem ;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  text-align: start;
+  flex-wrap: wrap;
+  margin-left:1.4rem;
+
+}
+
+.brh1{
+  display: none;
+
+}
+
+.brh2{
+  display:none;
+}
+
+.brh3{
+  display: none;
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+
+  margin-left: 1.4rem;
+  margin-top: -.5rem;
+
+}
+.br1 {
+display: flex;
+}
+.br2 {
+  display: none;
+}
+
+.br3{
+  display: flex;
+}
+
+.br4 {
+  display: none;
+}
+
+
+
+
+.discountprice{
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  text-align: start;
+  margin-left: 1.4rem;
+  margin-top:-.3rem;
+  
+}
+
+.regularprice{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+ margin-left: 8.5rem;
+ 
+}
+
+button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin-top: -1.4rem;
+margin-bottom:-2rem ;
+margin-left: 1.6rem;
+width: 19rem;
+}
+
+.icon{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin-top:.8rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+
+.button-text{
+  display: flex;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin-top:.8rem ;
+
+}
+
+#img-div{
+  display: none;
+}
+.img-mobile {
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align:start;
+  order:-1;
+  max-width: 100%;
+ max-height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  margin-right: 0px;
+  margin-top: -6rem;
+  margin-bottom: 5rem;
+}
+}
+
+@media screen and (max-width:1440px) and (min-width:375px){
+#img-div{
+max-width: 1140px;
+}
+}
